@@ -13,13 +13,11 @@
     "author": "OnePointNever",
     "license": "UNLICENSED",
     "dependencies": {
-        "lodash": "*",
-        "airtable": "*"
+        "lodash": "^4.17.5",
+        "airtable": "0.5.2"
     },
     "devDependencies": {
-        "babel-cli": "*",
-        "babel-plugin-transform-object-rest-spread": "*",
-        "babel-preset-env": "*",
-        "mocha": "*",
+        "babel-cli": "^6.26.0",
+        "babel-preset-env": "^1.6.1"
     }
 }
