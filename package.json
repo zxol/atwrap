@@ -1,0 +1,25 @@
+{
+    "name": "atwrap",
+    "version": "0.1.0",
+    "description": "blah",
+    "main": "index.js",
+    "directories": {
+        "lib": "lib"
+    },
+    "scripts": {
+        "build": "babel lib/main.js --out-file index.js",
+        "test": "npm run build && mocha"
+    },
+    "author": "OnePointNever",
+    "license": "UNLICENSED",
+    "dependencies": {
+        "lodash": "*",
+        "airtable": "*"
+    },
+    "devDependencies": {
+        "babel-cli": "*",
+        "babel-plugin-transform-object-rest-spread": "*",
+        "babel-preset-env": "*",
+        "mocha": "*",
+    }
+}
