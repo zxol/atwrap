@@ -20,12 +20,12 @@ Find your api key and database ref ID on the interactive docs page on airtable.c
 ## Interface list
 
 ```
-const record = await at.getSingleRecordFrom({tableName, id})
+const record = await at.get.single({tableName, id})
 
-const allRecords = await at.getAllRecordsFrom(tableName)
+const allRecords = await at.get.all(tableName)
 
-const matchedRecords = await at.getAllMatchedRecordsFrom({tableName, column, value})
+const matchedRecords = await at.get.matched({tableName, column, value})
 
-const queryResult = await at.getRecordsSelect({tableName, select})
+const queryResult = await at.get.select({tableName, select})
 
 ```
