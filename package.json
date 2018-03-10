@@ -1,6 +1,6 @@
 {
     "name": "atwrap",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "description": "a wrapper for common airtable functions, promisified",
     "main": "index.js",
     "directories": {
