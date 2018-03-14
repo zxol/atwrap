@@ -28,4 +28,16 @@ const matchedRecords = await at.get.matched({tableName, column, value})
 
 const queryResult = await at.get.select({tableName, select})
 
+const newRecord = await at.insert({tableName, data})
+const newRecord = await at.add({tableName, data})
+const newRecord = await at.create({tableName, data})
+
+const updatedRecord = await at.update({tableName, id, data})
+const updatedRecord = await at.set({tableName, id, data})
+
+const deletedRecord = await at.delete({tableName, id})
+const deletedRecord = await at.remove({tableName, id})
+const deletedRecord = await at.destroy({tableName, id})
+
+
 ```
