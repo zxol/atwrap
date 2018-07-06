@@ -24,7 +24,9 @@ const record = await at.get.single({tableName, id})
 
 const allRecords = await at.get.all(tableName)
 
-const matchedRecords = await at.get.matched({tableName, column, value})
+const matchedRecords = await at.get.find({tableName, column, value})
+const matchedRecords = await at.get.match({tableName, column, value})
+const matchedRecords = await at.get.findAll({tableName, column, value})
 
 const queryResult = await at.get.select({tableName, select})
 
