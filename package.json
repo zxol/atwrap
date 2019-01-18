@@ -14,14 +14,14 @@
         "type": "git",
         "url": "git+https://github.com/zxol/atwrap.git"
     },
-    "author": "OnePointNever",
+    "author": "zxol",
     "license": "UNLICENSED",
     "dependencies": {
-        "lodash": "^4.17.5",
-        "airtable": "0.5.2"
+        "airtable": "^0.5.8",
+        "lodash": "*"
     },
     "devDependencies": {
-        "babel-cli": "^6.26.0",
-        "babel-preset-env": "^1.6.1"
+        "babel-cli": "*",
+        "babel-preset-env": "*"
     }
 }
